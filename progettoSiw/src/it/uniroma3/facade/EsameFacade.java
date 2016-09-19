@@ -23,7 +23,7 @@ public class EsameFacade {
 
 
 	public Esame createEsame(String codiceEsame,Date data,String aula) {
-//
+
 		Esame esame = new Esame(codiceEsame, data, aula);
 		EntityTransaction tx = entityManager.getTransaction();
 		tx.begin();
